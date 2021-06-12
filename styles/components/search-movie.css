@@ -1,0 +1,21 @@
+.search-movie {
+  display: flex;
+  align-items: center;
+}
+
+.search-movie__background {
+  background-color: #424242;
+}
+
+.search-movie__img {
+  height: 76px;
+  width: 146px;
+}
+
+.search-movie__play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+}
