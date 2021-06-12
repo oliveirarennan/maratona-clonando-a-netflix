@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+p,
+h1,
+h2,
+h3,
+span,
+strong {
+  color: white;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
