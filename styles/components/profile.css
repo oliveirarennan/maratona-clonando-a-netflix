@@ -12,6 +12,11 @@
 .profile__img {
   width: 65px;
   height: 60px;
+  transition: transform ease-in-out 150ms;
+}
+
+.profile__img:hover {
+  transform: scale(1.1);
 }
 
 .profile__img--big {
