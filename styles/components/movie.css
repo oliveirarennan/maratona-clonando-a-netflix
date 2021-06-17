@@ -1,6 +1,12 @@
 .movie {
   display: flex;
   overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.movie::-webkit-scrollbar {
+  display: none;
 }
 
 .movie img:not(:last-child) {
