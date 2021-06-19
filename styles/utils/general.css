@@ -12,6 +12,10 @@ strong {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .max-resolution {
   display: none;
   text-align: center;
