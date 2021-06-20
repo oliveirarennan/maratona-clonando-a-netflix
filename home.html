@@ -8,8 +8,8 @@
     <title>Home | Netflix</title>
   </head>
   <body>
-    <div class="content">
-      <div class="status-bar">
+    <main class="content">
+      <header class="status-bar">
         <p class="status-bar__time">9:41</p>
         <div class="status-bar__icons">
           <img
@@ -19,9 +19,9 @@
           <img src="./assets/icons/wifi.svg" alt="Wifi" />
           <img src="./assets/icons/battery.svg" alt="Bateria" />
         </div>
-      </div>
+      </header>
 
-      <div class="navbar">
+      <nav class="navbar">
         <img
           src="assets/images/netflix.png"
           alt="Logo Netflix"
@@ -30,7 +30,7 @@
         <p class="navbar__text">TV Shows</p>
         <p class="navbar__text">Movies</p>
         <p class="navbar__text">My List</p>
-      </div>
+      </nav>
 
       <img
         src="./assets/images/home_wallpaper.png"
@@ -38,7 +38,7 @@
         class="wallpaper"
       />
 
-      <div class="play">
+      <section class="play">
         <div class="play__top">
           <img src="assets/icons/top10.svg" alt="Top 10" />
           <p class="play__title">#3 in Brazil Today</p>
@@ -61,11 +61,11 @@
             <p class="play__text">Info</p>
           </div>
         </div>
-      </div>
+      </section>
 
       <h1 class="title title--big">Previews</h1>
 
-      <div class="movie" id="previews">
+      <section class="movie" id="previews">
         <img
           class="movie__img--circle"
           src="./assets/images/movie4.png"
@@ -87,11 +87,11 @@
           src="./assets/images/movie3.png"
           alt="Oloture"
         />
-      </div>
+      </section>
 
       <h1 class="title">Popular on Netflix</h1>
 
-      <div class="movie">
+      <section class="movie">
         <img
           class="movie__img"
           src="./assets/images/movie1.png"
@@ -112,11 +112,11 @@
           src="./assets/images/movie4.png"
           alt="Before 30"
         />
-      </div>
+      </section>
 
       <h1 class="title">Trending Now</h1>
 
-      <div class="movie">
+      <section class="movie">
         <img
           class="movie__img"
           src="./assets/images/movie4.png"
@@ -138,11 +138,11 @@
           src="./assets/images/movie1.png"
           alt="Lúcifer"
         />
-      </div>
+      </section>
 
       <h1 class="title">Top 100 in Brazil Today</h1>
 
-      <div class="movie">
+      <section class="movie">
         <img
           class="movie__img"
           src="./assets/images/movie3.png"
@@ -163,11 +163,11 @@
           src="./assets/images/movie2.png"
           alt="The princess switched again"
         />
-      </div>
+      </section>
 
       <h1 class="title">Netflix Originals</h1>
 
-      <div class="movie">
+      <section class="movie">
         <img
           class="movie__img--big"
           src="./assets/images/movie2.png"
@@ -188,11 +188,11 @@
           src="./assets/images/movie1.png"
           alt="Lúcifer"
         />
-      </div>
+      </section>
 
       <h1 class="title">New Releases</h1>
 
-      <div class="movie">
+      <section class="movie">
         <img
           class="movie__img"
           src="./assets/images/movie3.png"
@@ -213,9 +213,9 @@
           src="./assets/images/movie2.png"
           alt="The princess switched again"
         />
-      </div>
+      </section>
 
-      <div class="bottom-navbar__background">
+      <nav class="bottom-navbar__background">
         <div class="bottom-navbar">
           <div class="bottom-navbar__icon">
             <img src="./assets/icons/home-active.svg" alt="Home" />
@@ -242,10 +242,10 @@
             <p class="bottom-navbar__text">More</p>
           </a>
         </div>
-      </div>
-    </div>
+      </nav>
+    </main>
 
-    <div class="max-resolution">
+    <section class="max-resolution">
       <p class="max-resolution__text">Opa, sua resolução está muito grande!</p>
       <br />
       <p class="max-resolution__text max-resolution__text--tablet">
@@ -254,6 +254,6 @@
       <p class="max-resolution__text max-resolution__text--notebook">
         Parece que você está usando um NOTEBOOK, tente acessar no celular
       </p>
-    </div>
+    </section>
   </body>
 </html>
