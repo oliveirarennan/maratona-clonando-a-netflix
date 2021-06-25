@@ -1,0 +1,27 @@
+.notification{
+  display: flex;
+  gap: 30px;
+}
+.notification__img{
+  width: 113px;
+  height: 55px;
+}
+
+.notification-info{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px;
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.notification-info__subtitle{
+  font-size: 11px;
+  color: #ffffff83;
+}
+
+.notification-info__date{
+  font-size: 10px;
+  color: #ffffff48;
+}
